@@ -1,0 +1,7 @@
+﻿  sao _lei.c
+D:\study\C\sao lei\sao lei\sao _lei.c(41,15): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+D:\study\C\sao lei\sao lei\sao _lei.c(43,10): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+D:\study\C\sao lei\sao lei\sao _lei.c(47,11): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+D:\study\C\sao lei\sao lei\sao _lei.c(47,16): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+D:\study\C\sao lei\sao lei\sao _lei.c(53,2): warning C4013: “srand”未定义；假设外部返回 int
+  sao lei.vcxproj -> D:\study\C\sao lei\x64\Debug\sao lei.exe
