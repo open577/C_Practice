@@ -1,0 +1,3 @@
+﻿  game.c
+D:\study\C\bi_da_xiao\bi_da_xiao\game.c(8,10): warning C4013: “rand”未定义；假设外部返回 int
+  bi_da_xiao.vcxproj -> D:\study\C\bi_da_xiao\x64\Debug\bi_da_xiao.exe
