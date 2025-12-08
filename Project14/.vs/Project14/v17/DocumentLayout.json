@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\C\\Project14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC880BF4-40C2-494B-8470-E660BAF65962}|Project14\\Project14.vcxproj|D:\\study\\C\\Project14\\Project14\\10-11 ketang text.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC880BF4-40C2-494B-8470-E660BAF65962}|Project14\\Project14.vcxproj|solutionrelative:Project14\\10-11 ketang text.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "10-11 ketang text.c",
+              "DocumentMoniker": "D:\\study\\C\\Project14\\Project14\\10-11 ketang text.c",
+              "RelativeDocumentMoniker": "Project14\\10-11 ketang text.c",
+              "ToolTip": "D:\\study\\C\\Project14\\Project14\\10-11 ketang text.c",
+              "RelativeToolTip": "Project14\\10-11 ketang text.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-11T14:10:18.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
