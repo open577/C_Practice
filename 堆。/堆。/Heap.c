@@ -1,4 +1,6 @@
+#define  _CRT_SECURE_NO_WARNINGS
 #include"Heap.h"
+#include<time.h>
 //父子节点进行交换
 void Swap(HPDataType* p1, HPDataType* p2)
 {
@@ -144,5 +146,60 @@ int main()
 		HPPop(&p);
 	}
 	printf("\n");
-	return 0;
+	//随机生成十万个数据，并打印出最大的前n个数
+	srand((unsigned int)time(NULL));
+	//生成随机数
+	const char* file = "data.txt";
+	FILE* pf = fopen(file, "w");
+	if (pf == NULL)
+	{
+		printf("打开文件失败！");
+		exit(0);
+	}
+	for (int i = 0; i < 100000; i++)
+	{
+		fprintf(pf,"%d\n", rand()%1000000+1);
+	}
+	fclose(pf);
+	printf("请输入检查的数据个数->");
+	int n;
+	scanf_s("%d", &n);
+	int* arr1 = (int*)malloc(n* sizeof(int));
+	if (arr1 == NULL)
+	{
+		perror("malloc fail!");
+		exit(1);
+	}
+	const char* file1 = "data.txt";
+	FILE* pd = fopen(file1, "r");
+	if (pd == NULL)
+	{
+		printf("读取文件失败！");
+		exit(1);
+	}
+	//读取前n个数据
+	for (int i = 0; i < n; i++)
+	{
+		fscanf(pd, "%d", &arr1[i]);
+	}
+	//建n个数的小堆
+	for (int i = (n - 1 - 1) / 2; i >= 0; i--)
+	{
+		AdjustDown(arr1, n, i);
+	}
+	//读取剩下的数据
+	int f = 0;
+	while (fscanf(pd, "%d", &f)>0)
+	{
+		if (f > arr1[0])
+		{
+			arr1[0] = f;
+			AdjustDown	(arr1, n, 0);
+				}
+	}
+	for (int i = 0; i < n;i++)
+	{
+		printf("%d ", arr1[i]);
+	}
+		return 0;
 }
