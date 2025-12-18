@@ -113,6 +113,7 @@ void Print(HP* php)
 	printf("\n");
 }
 int main()
+
 {
 	HP p;
 	HPInit(&p);
@@ -147,20 +148,20 @@ int main()
 	}
 	printf("\n");
 	//随机生成十万个数据，并打印出最大的前n个数
-	srand((unsigned int)time(NULL));
-	//生成随机数
-	const char* file = "data.txt";
-	FILE* pf = fopen(file, "w");
-	if (pf == NULL)
-	{
-		printf("打开文件失败！");
-		exit(0);
-	}
-	for (int i = 0; i < 100000; i++)
-	{
-		fprintf(pf,"%d\n", rand()%1000000+1);
-	}
-	fclose(pf);
+	//srand((unsigned int)time(NULL));
+	////生成随机数
+	//const char* file = "data.txt";
+	//FILE* pf = fopen(file, "w");
+	//if (pf == NULL)
+	//{
+	//	printf("打开文件失败！");
+	//	exit(0);
+	//}
+	//for (int i = 0; i < 100000; i++)
+	//{
+	//	fprintf(pf,"%d\n", rand()%1000000+1);
+	//}
+	//fclose(pf);
 	printf("请输入检查的数据个数->");
 	int n;
 	scanf_s("%d", &n);
@@ -194,8 +195,8 @@ int main()
 		if (f > arr1[0])
 		{
 			arr1[0] = f;
-			AdjustDown	(arr1, n, 0);
-				}
+			AdjustDown(arr1, n, 0);
+		}
 	}
 	for (int i = 0; i < n;i++)
 	{
