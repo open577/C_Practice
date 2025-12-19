@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\C\\Project17\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BCBB77-F2ED-4A8A-A3BC-AE44E63481AD}|Project17\\Project17.vcxproj|D:\\study\\C\\Project17\\Project17\\hanshu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1BCBB77-F2ED-4A8A-A3BC-AE44E63481AD}|Project17\\Project17.vcxproj|solutionrelative:Project17\\hanshu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hanshu.c",
+              "DocumentMoniker": "D:\\study\\C\\Project17\\Project17\\hanshu.c",
+              "RelativeDocumentMoniker": "Project17\\hanshu.c",
+              "ToolTip": "D:\\study\\C\\Project17\\Project17\\hanshu.c",
+              "RelativeToolTip": "Project17\\hanshu.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-19T15:07:58.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
