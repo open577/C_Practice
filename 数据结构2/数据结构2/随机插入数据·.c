@@ -55,13 +55,13 @@ void SLInsert(struct SeqList1* pf,/*插入位置*/int pos,/*插入元素*/int x)
 	pf->size++;
 }
 //删除元素
-void ERASE(struct SeqList1* pf, int a)
+void ERASE(struct SeqList1* pf, int pos)
 {
 	//下标为a及其后面的元素向前移动一个位置
-	for (int i = 0; i <pf->size - a - 1; i++)
+	for (int i = 0; i <pf->size - pos - 1; i++)
 	{
 
-		pf->arr[a+i] = pf->arr[a + i+1];
+		pf->arr[pos+i] = pf->arr[pos+ i+1];
 	}
 	pf->size--;
 }

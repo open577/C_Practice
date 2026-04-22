@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\study\\C\\sao lei\\",
+  "WorkspaceRootPath": "D:\\\u7EC3\u4E60\\sao lei\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\study\\C\\sao lei\\sao lei\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|solutionrelative:sao lei\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\study\\C\\sao lei\\sao lei\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|solutionrelative:sao lei\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\study\\C\\sao lei\\sao lei\\sao _lei.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{27F0A77A-32DB-4AA2-86DB-2FF3E03EBB0A}|sao lei\\sao lei.vcxproj|solutionrelative:sao lei\\sao _lei.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "game.c",
-              "DocumentMoniker": "D:\\study\\C\\sao lei\\sao lei\\game.c",
+              "DocumentMoniker": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.c",
               "RelativeDocumentMoniker": "sao lei\\game.c",
-              "ToolTip": "D:\\study\\C\\sao lei\\sao lei\\game.c",
+              "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.c",
               "RelativeToolTip": "sao lei\\game.c",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-23T11:22:25.916Z",
               "EditorCaption": ""
@@ -41,14 +41,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "game.h",
-              "DocumentMoniker": "D:\\study\\C\\sao lei\\sao lei\\game.h",
+              "DocumentMoniker": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.h",
               "RelativeDocumentMoniker": "sao lei\\game.h",
-              "ToolTip": "D:\\study\\C\\sao lei\\sao lei\\game.h",
+              "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.h",
               "RelativeToolTip": "sao lei\\game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-23T11:21:37.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T11:21:37.595Z"
             }
           ]
         },
@@ -60,11 +59,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "sao _lei.c",
-              "DocumentMoniker": "D:\\study\\C\\sao lei\\sao lei\\sao _lei.c",
+              "DocumentMoniker": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
               "RelativeDocumentMoniker": "sao lei\\sao _lei.c",
-              "ToolTip": "D:\\study\\C\\sao lei\\sao lei\\sao _lei.c",
+              "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
               "RelativeToolTip": "sao lei\\sao _lei.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-23T11:23:21.273Z",
               "EditorCaption": ""

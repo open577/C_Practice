@@ -64,7 +64,6 @@ void AdjustUp(HPDataType* a, int child)
 void AdjustDown(HPDataType* a, int n, int parent)
 {
 	//先假设左孩子比右孩子小，再和右孩子进行比较
-
 	int child = parent * 2 + 1;
 	while (child < n)
 	{
@@ -148,20 +147,20 @@ int main()
 	}
 	printf("\n");
 	//随机生成十万个数据，并打印出最大的前n个数
-	//srand((unsigned int)time(NULL));
-	////生成随机数
-	//const char* file = "data.txt";
-	//FILE* pf = fopen(file, "w");
-	//if (pf == NULL)
-	//{
-	//	printf("打开文件失败！");
-	//	exit(0);
-	//}
-	//for (int i = 0; i < 100000; i++)
-	//{
-	//	fprintf(pf,"%d\n", rand()%1000000+1);
-	//}
-	//fclose(pf);
+	srand((unsigned int)time(NULL));
+	//生成随机数
+	const char* file = "data.txt";
+	FILE* pf = fopen(file, "w");
+	if (pf == NULL)
+	{
+		printf("打开文件失败！");
+		exit(0);
+	}
+	for (int i = 0; i < 100000; i++)
+	{
+		fprintf(pf,"%d\n", rand()%1000000+1);
+	}
+	fclose(pf);
 	printf("请输入检查的数据个数->");
 	int n;
 	scanf_s("%d", &n);

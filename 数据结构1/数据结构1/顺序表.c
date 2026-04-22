@@ -3,7 +3,7 @@
 #include<assert.h>
 #define N 100
 //静态顺序表
-struct SeqList
+typedef struct SeqList
 {
 	int arr[N];//
 	int size;//数组当前元素个数
@@ -22,14 +22,14 @@ void BEG(struct SeqList*pa)
 	printf("\n");
 }
 //动态顺序表
-struct SeqList1
+typedef struct SeqList1
 {
 	int* arr;
 	int size;
 	int capacity;
 }ST;
 //动态顺序表初始化
-void BEG1(struct SeqList1* pf)
+void Init(struct SeqList1* pf)
 {
 	pf->arr = NULL;
 	pf->size = 0;
@@ -74,7 +74,7 @@ int main()
 	//初始化并打印
 	BEG(&SL);
 	struct SeqList1 ST;//动态顺序表
-	BEG1(&ST);//初始化
+	Init(&ST);//初始化
 	STpushback(&ST, 1);//尾插
     //打印数组内的数据
 	PRINT(&ST);

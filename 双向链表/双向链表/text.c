@@ -12,11 +12,10 @@ typedef struct ListNode
 //Î²²å
 
 
-//³õÊ¼»¯
 LTNode* LTBuyNode(int x)
 {
 	LTNode* node = (LTNode*)malloc(sizeof(LTNode));
-	if (node)
+	if (node==NULL)
 		assert(malloc);
 	node->data = x;
 	node->next = node->prev = node;

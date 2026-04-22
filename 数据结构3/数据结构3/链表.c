@@ -34,8 +34,6 @@ void PUSHBACK(SLTNode** pb, int b)
 {
 	//判断首链表是否为空
 	assert(pb);
-
-
 	//申请新空间
 	struct SlistNode* newnode = (struct SlistNode*)malloc(sizeof(SLTNode));
 
