@@ -21,9 +21,22 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 223,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 190,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sao _lei.c",
+              "DocumentMoniker": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
+              "RelativeDocumentMoniker": "sao lei\\sao _lei.c",
+              "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
+              "RelativeToolTip": "sao lei\\sao _lei.c",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-27T11:53:58.214Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +45,7 @@
               "RelativeDocumentMoniker": "sao lei\\game.c",
               "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\game.c",
               "RelativeToolTip": "sao lei\\game.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-23T11:22:25.916Z",
               "EditorCaption": ""
@@ -47,25 +60,7 @@
               "RelativeToolTip": "sao lei\\game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-23T11:21:37.595Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 191,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sao _lei.c",
-              "DocumentMoniker": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
-              "RelativeDocumentMoniker": "sao lei\\sao _lei.c",
-              "ToolTip": "D:\\\u7EC3\u4E60\\sao lei\\sao lei\\sao _lei.c",
-              "RelativeToolTip": "sao lei\\sao _lei.c",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-23T11:23:21.273Z",
+              "WhenOpened": "2025-10-23T11:21:37.595Z",
               "EditorCaption": ""
             }
           ]
