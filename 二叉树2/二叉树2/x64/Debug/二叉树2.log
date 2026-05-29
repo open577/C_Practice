@@ -1,4 +1,0 @@
-﻿  BinaryTree.c
-D:\练习\二叉树2\二叉树2\BinaryTree.c(41,30): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
-D:\练习\二叉树2\二叉树2\BinaryTree.c(63,1): warning C4715: “BuyNode”: 不是所有的控件路径都返回值
-  二叉树2.vcxproj -> D:\练习\二叉树2\x64\Debug\二叉树2.exe

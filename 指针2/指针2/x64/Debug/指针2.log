@@ -1,3 +1,0 @@
-﻿  text.c
-D:\练习\指针2\指针2\text.c(6,1): warning C4172: 返回局部变量的地址或临时 : d
-  指针2.vcxproj -> D:\练习\指针2\x64\Debug\指针2.exe

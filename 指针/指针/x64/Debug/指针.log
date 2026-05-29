@@ -1,6 +1,0 @@
-﻿  text.c
-D:\练习\指针\指针\text.c(23,8): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
-D:\练习\指针\指针\text.c(33,7): warning C4047: “初始化”:“int *”与“int (*)[10]”的间接级别不同
-D:\练习\指针\指针\text.c(38,7): warning C4047: “初始化”:“int *”与“int (*)[10]”的间接级别不同
-D:\练习\指针\指针\text.c(49,7): warning C4090: “初始化”: 不同的“const”限定符
-  指针.vcxproj -> D:\练习\指针\x64\Debug\指针.exe

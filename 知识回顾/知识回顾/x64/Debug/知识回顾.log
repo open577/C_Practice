@@ -1,3 +1,0 @@
-﻿  timper.c
-D:\练习\知识回顾\知识回顾\timper.c(17,5): warning C4013: “gets”未定义；假设外部返回 int
-  知识回顾.vcxproj -> D:\练习\知识回顾\x64\Debug\知识回顾.exe
